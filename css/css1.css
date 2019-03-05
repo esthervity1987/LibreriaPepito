@@ -1,0 +1,34 @@
+﻿body{
+    background-color:lightsalmon;
+    font-size:2vw; 
+    text-align:center;
+    font-family: 'Gochi Hand', cursive; 
+
+}
+input, button{
+    border-radius:15px;
+    font-size:2vw; 
+    text-align: center;
+}
+.centrar{
+    text-align:center;
+}
+
+table{
+    border-collapse:collapse;
+    border: 1px dotted black;
+    margin:2%;
+    margin: auto;
+}
+td,th{
+    border:1px dotted black;
+    padding:1%;
+}
+a{
+    cursor: pointer;
+}
+.boton{
+    background-color:  cadetblue;
+    border-radius: 15px;
+    padding: 3px;
+}
