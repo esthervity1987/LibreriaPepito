@@ -26,7 +26,7 @@ include_once './includes/header.php';
             
             echo '<div class="tarjeta">
             <div class="imagen">
-                <img src="miLibro.jpg" alt="imagen del libro">
+                <img src="css/miLibro.jpg" alt="imagen del libro">
             </div>
             <div class="informacion">';
            foreach($valor as $indice2 => $valor2){
