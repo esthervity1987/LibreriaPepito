@@ -25,7 +25,7 @@ class PatronSingleton {
 
     public function SELECT_libros($busqueda) {
         try {
-            $prepSentencia = $this->pdo->prepare("select * from libros where titulo like '%$busqueda%'");
+            $prepSentencia = $this->pdo->prepare("select isbn, titulo, autor, anio from libros where titulo like '%$busqueda%'");
             $prepSentencia->execute() or die("Ha ocurrido un error al buscar los libros.");
             
             $filasAfectadas = $prepSentencia->rowCount();  // Probado
