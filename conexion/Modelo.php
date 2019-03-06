@@ -6,7 +6,7 @@ class PatronSingleton {
     private static $instancia; // contenedor de la instancia
 
     private function __construct() { // un constructor privado evita crear nuevos objetos desde fuera de la clase
-        $this->pdo = new PDO("mysql:host=localhost; dbname=libros; charset=utf8", 'librero', 'elPass');  
+        $this->pdo = new PDO("mysql:host=localhost; dbname=librosdb; charset=utf8", 'librero', 'elPass');  
     }
 
     public static function getSingleton() { //método singleton que crea instancia sí no está creada       
